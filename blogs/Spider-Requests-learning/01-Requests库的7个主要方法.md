@@ -4,8 +4,8 @@
 - [requests库的主要方法(基础方法)]("#requests库的主要方法(基础方法)")
   - [1.requests库的get()方法]("#1.requests库的get()方法")
   - [Response对象的属性]("#Response对象的属性")
-  - [2.Requests库的head()方法]("#2.Requests库的head()方法")
-  - [3.Requests库的post()方法]("#3.Requests库的post()方法")
+  - [2.Requests库的head()方法]('#2.Requests库的head()方法')
+  - [3.Requests库的post()方法](#3.Requests库的post()方法)
   - [4.Requests库的put()方法]("#4.Requests库的put()方法")
 
 |         方法         |               说明                |
