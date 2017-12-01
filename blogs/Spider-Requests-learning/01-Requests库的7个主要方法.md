@@ -1,6 +1,12 @@
-### Requests库的7个主要方法
+# Requests库的7个主要方法
 
-[TOC]
+### Table of contents
+- [requests库的主要方法(基础方法)]("#requests库的主要方法(基础方法)")
+  - [1.requests库的get()方法]("#1.requests库的get()方法")
+  - [Response对象的属性]("#Response对象的属性")
+  - [2.Requests库的head()方法]("#2.Requests库的head()方法")
+  - [3.Requests库的post()方法]("#3.Requests库的post()方法")
+  - [4.Requests库的put()方法]("#4.Requests库的put()方法")
 
 |         方法         |               说明                |
 | :----------------: | :-----------------------------: |
@@ -16,7 +22,7 @@
 
 requests.request(method, url, **kwargs)
 
-- **method:**请求方式，对应get/put/post等7种
+- method: 请求方式，对应get/put/post等7种
   - r = requests.request('GET',url, **kwargs)
   - r = requsts.request('HEAD',url, **kwargs)
   - r = requests.request('POST',url, **kwargs)
@@ -25,7 +31,7 @@ requests.request(method, url, **kwargs)
   - r = requests.request('OPTIONS',url, **kwargs)
 
 
-- **url:**拟获取页面的URL链接
+- url: 拟获取页面的URL链接
 - **kwargs: 控制访问的参数，共13个
   - 1)params:字典或字节序列，作为参数增加到URL中
   - 2)data: 字典、字节序列或者文件对象，作为Request的内容
@@ -40,14 +46,15 @@ requests.request(method, url, **kwargs)
   - 11)stream : True/False, 默认为True ,获取内容立即下载开关
   - 12)verify : True/False , 默认为True ， 认证SSL证书开关
   - 13) cert : 本地SSL证书路径
-#### 1、requests.get()方法：
+  
+#### 1.requests库的get()方法：
 
 ```python
 r = requests.get(url)    #构造一个向服务器请求资源的Request对象
 #返回一个包含服务器资源的Response对象
 ```
 
-完整方法：requests.get(==url, params=None, **kwargs==)
+完整方法：requests.get(url, params=None, **kwargs)
 
 url: 拟获取页面的url链接
 
@@ -86,7 +93,7 @@ r.headers
 """
 ```
 
-#### 1.1、Response对象的属性
+#### Response对象的属性
 
 |         属性          |              说明               |
 | :-----------------: | :---------------------------: |
