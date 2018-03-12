@@ -1,8 +1,9 @@
 # python-learning
 
 ###  Table of contents 
-- [Python基础](#基础)
-- [Python爬虫](#爬虫)
+- [Python基础](https://github.com/rovo98/python-learning#基础)
+- [Python爬虫](https://github.com/rovo98/python-learning#爬虫)
+	- [Request库](https://github.com/rovo98/python-learning#requests库的使用)
 
 ---------------------------------------------------------------------------------------------------
 
