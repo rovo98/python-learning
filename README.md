@@ -9,6 +9,19 @@
 
 ### 基础
 
+- [玩转字符串](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/01-%E7%8E%A9%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
+- [python中的内置函数](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/02-Python%E4%B8%AD%E7%9A%84%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0(build-in%20function).md)
+- [pythonz中的函数参数传递](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/03-Python%E4%B8%AD%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0%E4%BC%A0%E9%80%92%E9%97%AE%E9%A2%98.md)
+- [列表和元组的用法总结](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/04-%E5%88%97%E8%A1%A8%E5%92%8C%E5%85%83%E7%A5%96%E7%9A%84%E7%94%A8%E6%B3%95%E6%80%BB%E7%BB%93.md)
+- [python中的类](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/05-Python%E4%B8%AD%E7%9A%84%E7%B1%BB.md)
+- [文件处理的常用场景和用法](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/06-%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86%E7%9A%84%E5%B8%B8%E7%94%A8%E5%9C%BA%E6%99%AF%E5%92%8C%E7%94%A8%E6%B3%95.md)
+- [python中的文件处理](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/07-Python%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86.md)
+- [python中的异常和错误](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/08-Python%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8%E5%92%8C%E9%94%99%E8%AF%AF.md)
+- [python异常处理](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/09-Python%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.md)
+- [python的模块引入机制](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/10-Python%E6%A8%A1%E5%9D%97%E7%9A%84%E5%BC%95%E5%85%A5%E6%9C%BA%E5%88%B6.md)
+- [python文件综合实战](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/11-Python%E6%96%87%E4%BB%B6%E7%BB%BC%E5%90%88%E5%AE%9E%E6%88%98.md)
+- [python多线程](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/12-Python%E5%A4%9A%E7%BA%BF%E7%A8%8B.md)
+
 ---------------------------------------------------------------------------------------------------
 
 ### 爬虫
