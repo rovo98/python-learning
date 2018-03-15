@@ -1,6 +1,16 @@
-[TOC]
+---
+author : rovo98
+description: notes.
+---
 
-### BeautifulSoup库的基本元素及遍历
+# BeautifulSoup库的基本元素及遍历
+
+## Table of Contents
+
+- [基于bs4库HTML元素的遍历方法]()
+	- [标签树的下行遍历]()
+	- [标签树的上行遍历]()
+	- [标签树的平行遍历]()
 
 |      基本元素       |                    说明                    |
 | :-------------: | :--------------------------------------: |
@@ -28,7 +38,7 @@ soup1 = BeautifulSoup(open('E:\demo.html'), "html.parser")
 |  .children   | 子节点的迭代类型，与.contents类似，由于循环遍历儿子节点 |
 | .descendants |  **子孙**节点的迭代类型，包含所有子孙节点，用于循环遍历   |
 
-#### 2.标签树的上行遍历
+#### 2.标签树的上行遍历 -- [go back to top]()
 
 |    属性    |           说明           |
 | :------: | :--------------------: |
