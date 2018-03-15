@@ -27,7 +27,7 @@ Response的异常：
 | :------------------: | :-----------------------------: |
 | r.raise_for_status() | 如果不是200， 产生异常requests.HTTPError |
 
-**爬取网页的通用代码框架** -- [go back to top]()
+### 爬取网页的通用代码框架 -- [go back to top]()
 
 ```python
 import requests
@@ -44,7 +44,7 @@ if __name__ == '__main__':
     print(getHTMLText(url))
 ```
 
-#### 1、HTTP协议
+### 1、HTTP协议
 
 HTTP --> ， Hypertext Transfer Protocol, 超文本传输协议
 
