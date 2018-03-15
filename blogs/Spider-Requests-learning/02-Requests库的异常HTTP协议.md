@@ -69,7 +69,7 @@ URL 是通过HTTP协议存取资源的Internet路径，一个URL对应一个数�
 | PATCH  |  请求局部更新URL位置的资源，即改变该处资源的部分内容   |
 | DELETE |         请求删除URL位置存储的资源         |
 
-**理解PATCH和PUT的区别**：
+#### 理解PATCH和PUT的区别
 
 假设URL位置有一组数据UserInfo， 包括UserID、UserName等20个字段
 
