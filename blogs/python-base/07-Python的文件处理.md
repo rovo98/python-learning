@@ -1,36 +1,46 @@
-### Python的文件处理
+---
+author: rovo98
+description: notes.
+---
 
-[TOC]
+# Python的文件处理
 
-#### Python的文件处理简单分为：
+## Table of Contents
+
+- [python文件处理]()
+	- [python文件的打开和关闭]()
+	- [python文件模式]()
+	- [python文件的读取位置]()
+
+## Python的文件处理简单分为：
 - 文件的读写和关闭
 - 文件的模式
 - 文件的读取位置
-#### 1.文件的读写和关闭
+### 1.文件的读写和关闭
 Python中要想获得文件里的内容，先要**打开文件**，然后才能读和写。而且写完之后，**一定要关闭**。Python中对文件的打开是通过**open函数**来获得一个句柄。
 - 获得**读**的句柄f，就可以进行f.read()进行读入。
 - 获得**写**的句柄f，就可以进行f.write()进行写入。
 - 当文件处理结束后，关闭文件
-##### 1)文件的打开
+#### 1)文件的打开
 ```python
 file_obj = open(filename,mode='r',buffering=-1)
 # 一共有3个参数，第一个是强制参数，后面两个是可选的
 # mode可以是读，写或者追加，一般默认是读文件
 # buffering主要是缓冲区，若写100，表示缓冲区为100.
 ```
-##### 2)文件的读取
+#### 2)文件的读取
 ```python
 f = open(r'somefile.txt')
 f.readline() # 表示读取文件的一行
 f.readlines() #表示把文件从头到尾都读取出来，并保存为一个列表
 ```
-##### 3)文件的写入
+#### 3)文件的写入
 ```python
 f = open(r'somefile.txt')
 f.write() #表示把字符串写入
 f.writelines() #表示把一个列表写入
 ```
-##### 4)文件的关闭
+#### 4)文件的关闭
 - 普通的关闭方法
 ```python
 f = open(r'somefile.txt')
@@ -43,7 +53,7 @@ with open(r'somefile.txt')
 	f.writelines()
 ```
 通常使用的是with方法
-#### 2.文件的模式
+### 2.文件的模式
 **open函数的模式参数**
 
 |  值   |    描述    |
@@ -57,7 +67,7 @@ with open(r'somefile.txt')
 | 'w+' | 以读写模式打开  |
 | 'a+' | 以读写模式打开  |
 | 'rb' | 以二进制模式打开 |
-#### 3.文件的读取位置
+### 3.文件的读取位置
 有时候我们只想**读文件的一部分内容，**或者我们需要从**文件的某个位置读数据，**此时就应该使用seek()函数。
 ```python
 file_obj.seek(offset,whence=0)
@@ -83,14 +93,14 @@ print(f.read(3))
 f.close()
 >>>789
 ```
-#### 实例
+### 实例
 |---abc1109.txt---
 Google
 Micrisoft
 BaiDu
 Facebook
 |----demo.py---
-##### 1.把abc1109.txt里面的内容读取出来，写到一个新的文件中，按照下面的格式：
+#### 1.把abc1109.txt里面的内容读取出来，写到一个新的文件中，按照下面的格式：
 |----Output------
 1:Google
 2:Micirisoft
@@ -110,7 +120,7 @@ for index,line in enumerate(read_File()):
 	new_lines.append(str(index+1)+': '+line)
 write_File(new_lines)
 ```
-##### 例子2:修改文件名
+#### 例子2:修改文件名
 原来的：
 |-----abc1109.txt-----
 |-----new_abc1109.txt-----
