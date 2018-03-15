@@ -1,6 +1,16 @@
-### 理解Requests库的异常HTTP协议
+---
+author: rovo98
+description: notes.
+---
 
-[TOC]
+# 理解Requests库的异常HTTP协议
+
+## Table of Contents
+
+- [爬取网页的通用代码框架]()
+- [Http协议]()
+- [Http协议对资源的操作]()
+- [PATCH和PUT的区别]()
 
 |          异常             |         说明          |
 | :-----------------------: | :---------------------: |
@@ -17,7 +27,7 @@ Response的异常：
 | :------------------: | :-----------------------------: |
 | r.raise_for_status() | 如果不是200， 产生异常requests.HTTPError |
 
-**爬取网页的通用代码框架**
+**爬取网页的通用代码框架** -- [go back to top]()
 
 ```python
 import requests
@@ -48,7 +58,7 @@ HTTP URL的理解：
 
 URL 是通过HTTP协议存取资源的Internet路径，一个URL对应一个数据资源。
 
-#### 1.1HTTP协议对资源的操作
+#### 1.1HTTP协议对资源的操作 -- [go back to top]()
 
 |   方法   |               说明               |
 | :----: | :----------------------------: |
