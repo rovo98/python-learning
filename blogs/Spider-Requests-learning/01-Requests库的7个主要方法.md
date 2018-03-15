@@ -47,7 +47,7 @@ requests.request(method, url, **kwargs)
   - 12)verify : True/False , 默认为True ， 认证SSL证书开关
   - 13) cert : 本地SSL证书路径
   
-#### 1.requests库的get()方法：
+#### 1.requests库的get()方法： -- [go back to top]()
 
 ```python
 r = requests.get(url)    #构造一个向服务器请求资源的Request对象
@@ -118,7 +118,7 @@ r.text
 """
 ```
 
-#### 3.Requests库的post()方法
+#### 3.Requests库的post()方法 -- [go back to top]()
 
 ```python
 payload = {'key1':'value1', 'key2':'value2'}
