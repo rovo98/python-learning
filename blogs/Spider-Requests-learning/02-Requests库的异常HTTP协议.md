@@ -7,9 +7,9 @@ description: notes.
 
 ## Table of Contents
 
-- [爬取网页的通用代码框架]()
-- [Http协议]()
-- [Http协议对资源的操作]()
+- [爬取网页的通用代码框架](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/02-Requests%E5%BA%93%E7%9A%84%E5%BC%82%E5%B8%B8HTTP%E5%8D%8F%E8%AE%AE.md#爬取网页的通用代码框架----go-back-to-top)
+- [Http协议](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/02-Requests%E5%BA%93%E7%9A%84%E5%BC%82%E5%B8%B8HTTP%E5%8D%8F%E8%AE%AE.md#1http协议)
+- [Http协议对资源的操作](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/02-Requests%E5%BA%93%E7%9A%84%E5%BC%82%E5%B8%B8HTTP%E5%8D%8F%E8%AE%AE.md#11http协议对资源的操作----go-back-to-top)
 - [PATCH和PUT的区别]()
 
 |          异常             |         说明          |
