@@ -7,10 +7,10 @@ description: notes.
 
 ## Table of Contents
 
-- [基于bs4库HTML元素的遍历方法]()
-	- [标签树的下行遍历]()
-	- [标签树的上行遍历]()
-	- [标签树的平行遍历]()
+- [基于bs4库HTML元素的遍历方法](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/05-BeautifulSoup%E5%BA%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%85%83%E7%B4%A0%E5%8F%8A%E9%81%8D%E5%8E%86.md#基于bs4库的html的遍历方法)
+	- [标签树的下行遍历](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/05-BeautifulSoup%E5%BA%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%85%83%E7%B4%A0%E5%8F%8A%E9%81%8D%E5%8E%86.md#1标签树的下行遍历)
+	- [标签树的上行遍历](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/05-BeautifulSoup%E5%BA%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%85%83%E7%B4%A0%E5%8F%8A%E9%81%8D%E5%8E%86.md#2标签树的上行遍历----go-back-to-top)
+	- [标签树的平行遍历](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/05-BeautifulSoup%E5%BA%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%85%83%E7%B4%A0%E5%8F%8A%E9%81%8D%E5%8E%86.md#3标签树的平行遍历)
 
 |      基本元素       |                    说明                    |
 | :-------------: | :--------------------------------------: |
@@ -38,7 +38,7 @@ soup1 = BeautifulSoup(open('E:\demo.html'), "html.parser")
 |  .children   | 子节点的迭代类型，与.contents类似，由于循环遍历儿子节点 |
 | .descendants |  **子孙**节点的迭代类型，包含所有子孙节点，用于循环遍历   |
 
-#### 2.标签树的上行遍历 -- [go back to top]()
+#### 2.标签树的上行遍历 -- [go back to top](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/05-BeautifulSoup%E5%BA%93%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%85%83%E7%B4%A0%E5%8F%8A%E9%81%8D%E5%8E%86.md#beautifulsoup库的基本元素及遍历)
 
 |    属性    |           说明           |
 | :------: | :--------------------: |
