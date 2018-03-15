@@ -52,7 +52,7 @@ HTTP是一个基于“请求与响应”模式的、无状态的应用层协议�
 
 HTTP协议采用URL作为定位网络资源的标识。
 
-**URL格式：**http://host\[:port][path]
+**URL格式** http://host [:port ] [ path ]
 
 HTTP URL的理解：
 
