@@ -10,7 +10,7 @@ description: notes.
 - [爬取网页的通用代码框架](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/02-Requests%E5%BA%93%E7%9A%84%E5%BC%82%E5%B8%B8HTTP%E5%8D%8F%E8%AE%AE.md#爬取网页的通用代码框架----go-back-to-top)
 - [Http协议](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/02-Requests%E5%BA%93%E7%9A%84%E5%BC%82%E5%B8%B8HTTP%E5%8D%8F%E8%AE%AE.md#1http协议)
 - [Http协议对资源的操作](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/02-Requests%E5%BA%93%E7%9A%84%E5%BC%82%E5%B8%B8HTTP%E5%8D%8F%E8%AE%AE.md#11http协议对资源的操作----go-back-to-top)
-- [PATCH和PUT的区别]()
+- [PATCH和PUT的区别](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/02-Requests%E5%BA%93%E7%9A%84%E5%BC%82%E5%B8%B8HTTP%E5%8D%8F%E8%AE%AE.md#理解patch和put的区别)
 
 |          异常             |         说明          |
 | :-----------------------: | :---------------------: |
@@ -27,7 +27,7 @@ Response的异常：
 | :------------------: | :-----------------------------: |
 | r.raise_for_status() | 如果不是200， 产生异常requests.HTTPError |
 
-### 爬取网页的通用代码框架 -- [go back to top]()
+### 爬取网页的通用代码框架 -- [go back to top](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/02-Requests%E5%BA%93%E7%9A%84%E5%BC%82%E5%B8%B8HTTP%E5%8D%8F%E8%AE%AE.md#理解requests库的异常http协议)
 
 ```python
 import requests
@@ -58,7 +58,7 @@ HTTP URL的理解：
 
 URL 是通过HTTP协议存取资源的Internet路径，一个URL对应一个数据资源。
 
-#### 1.1HTTP协议对资源的操作 -- [go back to top]()
+#### 1.1HTTP协议对资源的操作 -- [go back to top](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/02-Requests%E5%BA%93%E7%9A%84%E5%BC%82%E5%B8%B8HTTP%E5%8D%8F%E8%AE%AE.md#理解requests库的异常http协议)
 
 |   方法   |               说明               |
 | :----: | :----------------------------: |
