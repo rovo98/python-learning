@@ -1,12 +1,12 @@
 # Requests库的7个主要方法
 
 ### Table of contents
-- [requests库的主要方法(基础方法)]("#requests库的主要方法(基础方法)")
-  - [1.requests库的get()方法]("#1.requests库的get()方法")
-  - [Response对象的属性]("#Response对象的属性")
-  - [2.Requests库的head()方法]('#2.Requests库的head()方法')
-  - [3.Requests库的post()方法](#3.Requests库的post()方法)
-  - [4.Requests库的put()方法]("#4.Requests库的put()方法")
+- [requests库的主要方法(基础方法)](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/01-Requests%E5%BA%93%E7%9A%847%E4%B8%AA%E4%B8%BB%E8%A6%81%E6%96%B9%E6%B3%95.md#requests库的主要方法基础方法)
+  - [1.requests库的get()方法](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/01-Requests%E5%BA%93%E7%9A%847%E4%B8%AA%E4%B8%BB%E8%A6%81%E6%96%B9%E6%B3%95.md#1requests库的get方法----go-back-to-top)
+  - [Response对象的属性](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/01-Requests%E5%BA%93%E7%9A%847%E4%B8%AA%E4%B8%BB%E8%A6%81%E6%96%B9%E6%B3%95.md#response对象的属性)
+  - [2.Requests库的head()方法](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/01-Requests%E5%BA%93%E7%9A%847%E4%B8%AA%E4%B8%BB%E8%A6%81%E6%96%B9%E6%B3%95.md#2requests库的head方法)
+  - [3.Requests库的post()方法](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/01-Requests%E5%BA%93%E7%9A%847%E4%B8%AA%E4%B8%BB%E8%A6%81%E6%96%B9%E6%B3%95.md#3requests库的post方法----go-back-to-top)
+  - [4.Requests库的put()方法](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/01-Requests%E5%BA%93%E7%9A%847%E4%B8%AA%E4%B8%BB%E8%A6%81%E6%96%B9%E6%B3%95.md#4requests库的put方法)
 
 |         方法         |               说明                |
 | :----------------: | :-----------------------------: |
@@ -47,7 +47,7 @@ requests.request(method, url, **kwargs)
   - 12)verify : True/False , 默认为True ， 认证SSL证书开关
   - 13) cert : 本地SSL证书路径
   
-#### 1.requests库的get()方法： -- [go back to top]()
+#### 1.requests库的get()方法： -- [go back to top](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/01-Requests%E5%BA%93%E7%9A%847%E4%B8%AA%E4%B8%BB%E8%A6%81%E6%96%B9%E6%B3%95.md#requests库的7个主要方法)
 
 ```python
 r = requests.get(url)    #构造一个向服务器请求资源的Request对象
@@ -118,7 +118,7 @@ r.text
 """
 ```
 
-#### 3.Requests库的post()方法 -- [go back to top]()
+#### 3.Requests库的post()方法 -- [go back to top](https://github.com/rovo98/python-learning/blob/master/blogs/Spider-Requests-learning/01-Requests%E5%BA%93%E7%9A%847%E4%B8%AA%E4%B8%BB%E8%A6%81%E6%96%B9%E6%B3%95.md#requests库的7个主要方法)
 
 ```python
 payload = {'key1':'value1', 'key2':'value2'}
