@@ -7,16 +7,16 @@ description: notes.
 
 ## Table of Contents
 
-- [分类]()
-- [1.变量或者函数名拼写错误:NameError]()
-- [2.方法名拼写错误: AttributeError]()
-- [3.列表越界: IndexError]()
-- [4.忘记在if/for/while/def 声明后面添加 :]()
-- [5.在循环语句中忘记调用len()：TypeError]()
-- [6.尝试连接非字符串值与字符串：TypeError]()
-- [7.访问未初始化的本地变量:UnboundLocalError]()
-- [8.打开一个不存在的文件:IOError]()
-- [9.除数为0: ZeroDivisionError]()
+- [分类](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/08-Python%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8%E5%92%8C%E9%94%99%E8%AF%AF.md#分类)
+- [1.变量或者函数名拼写错误:NameError](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/08-Python%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8%E5%92%8C%E9%94%99%E8%AF%AF.md#1变量或者函数名拼写错误nameerror)
+- [2.方法名拼写错误: AttributeError](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/08-Python%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8%E5%92%8C%E9%94%99%E8%AF%AF.md#2方法名拼写错误-attributeerror)
+- [3.列表越界: IndexError](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/08-Python%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8%E5%92%8C%E9%94%99%E8%AF%AF.md#3列表越界-indexerror----go-back-to-top)
+- [4.忘记在if/for/while/def 声明后面添加 :](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/08-Python%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8%E5%92%8C%E9%94%99%E8%AF%AF.md#4忘记在ifforwhiledef-声明后面添加-)
+- [5.在循环语句中忘记调用len()：TypeError](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/08-Python%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8%E5%92%8C%E9%94%99%E8%AF%AF.md#5在循环语句中忘记调用lentypeerror----go-back-to-top)
+- [6.尝试连接非字符串值与字符串：TypeError](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/08-Python%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8%E5%92%8C%E9%94%99%E8%AF%AF.md#6尝试连接非字符串值与字符串typeerror)
+- [7.访问未初始化的本地变量:UnboundLocalError](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/08-Python%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8%E5%92%8C%E9%94%99%E8%AF%AF.md#7访问未初始化的本地变量unboundlocalerror)
+- [8.打开一个不存在的文件:IOError](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/08-Python%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8%E5%92%8C%E9%94%99%E8%AF%AF.md#8打开一个不存在的文件ioerror----go-back-to-top)
+- [9.除数为0: ZeroDivisionError](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/08-Python%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8%E5%92%8C%E9%94%99%E8%AF%AF.md#9除数为0-zerodivisionerror)
 
 ### 分类
 
@@ -48,7 +48,7 @@ print(line.upperr())
 >>> AttributeError: 'str' object has no attribute 'upperr'
 ```
 
-#### 3.列表越界: IndexError -- [go back to top]()
+#### 3.列表越界: IndexError -- [go back to top](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/08-Python%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8%E5%92%8C%E9%94%99%E8%AF%AF.md#python中的异常和错误)
 
 比如访问list 的时候，**索引超过了**列表的最大索引
 
@@ -68,7 +68,7 @@ if score>90
 >>> SyntaxError: invalid syntax
 ```
 
-#### 5.在循环语句中忘记调用len()：TypeError -- [go back to top]()
+#### 5.在循环语句中忘记调用len()：TypeError -- [go back to top](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/08-Python%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8%E5%92%8C%E9%94%99%E8%AF%AF.md#python中的异常和错误)
 
 有时想通过索引来迭代一个list内的元素，for循环中我们经常使用range()函数，但是要**记得加入len()而不是直接返回这个列表**
 
@@ -115,7 +115,7 @@ func()
 print('Value of x is',x)
 ```
 
-#### 8.打开一个不存在的文件:IOError -- [go back to top]()
+#### 8.打开一个不存在的文件:IOError -- [go back to top](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/08-Python%E4%B8%AD%E7%9A%84%E5%BC%82%E5%B8%B8%E5%92%8C%E9%94%99%E8%AF%AF.md#python中的异常和错误)
 
 有的时候我们会**访问一个文件，**或者定义函数去传入一个文件名，然后去读取
 很有可能这个**文件名根本不存在**:
