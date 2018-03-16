@@ -7,11 +7,11 @@ description: notes.
 
 ## Table of Contents
 
-- [模块的好处]()
-- [模块的种类]()
-- [模块的搜索机制]()
-- [模块的引入方式]()
-- [import和from]()
+- [使用模块的好处](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/10-Python%E6%A8%A1%E5%9D%97%E7%9A%84%E5%BC%95%E5%85%A5%E6%9C%BA%E5%88%B6.md#1模块的好处)
+- [模块的种类](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/10-Python%E6%A8%A1%E5%9D%97%E7%9A%84%E5%BC%95%E5%85%A5%E6%9C%BA%E5%88%B6.md#2模块的种类)
+- [模块的搜索机制](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/10-Python%E6%A8%A1%E5%9D%97%E7%9A%84%E5%BC%95%E5%85%A5%E6%9C%BA%E5%88%B6.md#3python模块的搜索机制----go-back-to-top)
+- [模块的引入方式](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/10-Python%E6%A8%A1%E5%9D%97%E7%9A%84%E5%BC%95%E5%85%A5%E6%9C%BA%E5%88%B6.md#4模块的引入方式----go-back-to-top)
+- [import和from](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/10-Python%E6%A8%A1%E5%9D%97%E7%9A%84%E5%BC%95%E5%85%A5%E6%9C%BA%E5%88%B6.md#5import和from都是赋值语句)
 
 ### 1.模块的好处
 
@@ -50,7 +50,7 @@ print(sched.a)
 
 [解析]执行main.py的时候，首先引入了sched模块，这个模块的名字和标准库了的一样，但是这里调用的是我们自己写的模块，**这是Python模块的搜索机制决定的**
 
-### 3.Python模块的搜索机制 -- [go back to top]()
+### 3.Python模块的搜索机制 -- [go back to top](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/10-Python%E6%A8%A1%E5%9D%97%E7%9A%84%E5%BC%95%E5%85%A5%E6%9C%BA%E5%88%B6.md#深入了解python模块的引入机制)
 
 - 1)程序当前目录
 - 2)PYTHONPATH目录，也就是环境变量里面设置的PYTHON目录
@@ -61,7 +61,7 @@ print(sched.a)
 也就是程序运行的主目录，Python会首先在主目录搜索导入的文件，这个目录总是被先搜索。
 
 ####
-># PYTHONPATH目录
+>##### PYTHONPATH目录
 系统环境变量设置的PYTHON目录
 
 #### 标准库的目录
@@ -74,7 +74,7 @@ print('The PYTHONPATH is',sys.path)
 # 这里面就是包含Python模块搜索目录list
 ```
 
-### 4.模块的引入方式 -- [go back to top]()
+### 4.模块的引入方式 -- [go back to top](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/10-Python%E6%A8%A1%E5%9D%97%E7%9A%84%E5%BC%95%E5%85%A5%E6%9C%BA%E5%88%B6.md#深入了解python模块的引入机制)
 
 #### 1).import module
 
