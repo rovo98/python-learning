@@ -1,10 +1,22 @@
-### Python异常处理
+---
+author: rovo98
+description: notes.
+---
 
-[TOC]
+# Python异常处理
 
-#### 1.基本语法介绍
+## Table of Contents
+
+- [基本语法]()
+- [try-except]()
+- [try-except-finally]()
+
+### 1.基本语法介绍
+
 Python中有一套异常处理；机制，来帮助我们进行错误处理，语法比较简单
-##### 1)try-except语句
+
+#### 1)try-except语句
+
 ```python
 try:
 	do something
@@ -17,7 +29,9 @@ else:
 - except语句是用来处理不同的异常，**Exception**是异常的种类
 - e表示异常信息
 - else表示若没有发生异常，当try执行完毕后，就会执行else
-##### 2)try-except-finally语句
+
+#### 2)try-except-finally语句 -- [go back to top]()
+
 ```python
 try:
 	do something 
