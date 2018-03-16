@@ -7,9 +7,9 @@ description: notes.
 
 ## Table of Contents
 
-- [基本语法]()
-- [try-except]()
-- [try-except-finally]()
+- [基本语法](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/09-Python%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.md#1基本语法介绍)
+- [try-except](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/09-Python%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.md#1try-except语句)
+- [try-except-finally](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/09-Python%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.md#2try-except-finally语句----go-back-to-top)
 
 ### 1.基本语法介绍
 
@@ -30,7 +30,7 @@ else:
 - e表示异常信息
 - else表示若没有发生异常，当try执行完毕后，就会执行else
 
-#### 2)try-except-finally语句 -- [go back to top]()
+#### 2)try-except-finally语句 -- [go back to top](https://github.com/rovo98/python-learning/blob/master/blogs/python-base/09-Python%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.md#python异常处理)
 
 ```python
 try:
