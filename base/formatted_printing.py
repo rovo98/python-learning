@@ -23,6 +23,6 @@ print('Hello, {0}, 成绩提升了 {1:.1f}%'.format('小明', 17.125))
 
 s1 = 72
 s2 = 85
-r = (85 - 72) / 100
+r = (85 - 72) / 72 * 100
 print('Improved rate: %2.1f' % r)
 print('Improved rage: {0:2.1f}'.format(r))
