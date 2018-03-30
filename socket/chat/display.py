@@ -20,8 +20,8 @@ class Display:
         start up the display
         :return:
         """
-        print('显示从服务器传来的聊天信息')
-        self.sock.bind(('', 4900))  # 绑定在4900端口用户接受服务器传来的信息
+        print('\t\t聊天室显示屏启动成功，等待服务器发送信息...\t\t')
+        self.sock.bind(('', 6666))  # 绑定在6666端口用户接受服务器传来的信息
 
         while True:
             data, address = self.sock.recvfrom(self.MAX_BYTES)
