@@ -112,7 +112,7 @@ def getAllUserInfo():
          	all_user_info.append(user)
 ```
 
-详细实现查看 : [查看]()
+详细实现查看 : [查看](https://github.com/rovo98/python-learning/blob/master/web-spiders/tx_email_spider/tx_email_spider.py)
 
 ### 三、运行结果
 
